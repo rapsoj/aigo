@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Temporarily hide program detail pages while in development
+Disallow: /programs/research-roundtable
+Disallow: /programs/community-projects
+Disallow: /programs/innovation-sprint
+Disallow: /programs/startup-launchpad
+
+Sitemap: https://youngaileaderslinz.at/sitemap.xml
