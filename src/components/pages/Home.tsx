@@ -56,7 +56,7 @@ const Home: React.FC = () => {
   const programs = [
     {
       icon: <BookOpen size={32} />,
-      title: 'Research Roundtable',
+      title: 'AIGO Research Roundtable',
       description: 'Weekly forum where students and researchers present work, discuss recent papers, and form short-term collaborations focused on applied AI.',
       status: 'Launching Soon',
       image: 'https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg'
