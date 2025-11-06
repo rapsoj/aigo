@@ -161,18 +161,21 @@ const Home: React.FC = () => {
             We are a community of students and researchers applying artificial intelligence to solve real-world problems and benefit society.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Link
-              to="/join"
+            <a
+              href="https://forms.gle/Dd2PPcFYm8Sw2YbdA"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 rounded-full text-lg font-semibold bg-gradient-to-r from-accent-blue to-accent-mint text-white hover:from-accent-mint hover:to-accent-peach transition-all duration-300 transform hover:scale-105 shadow-medium hover:shadow-strong font-heading"
             >
               Get Involved
-            </Link>
-            <Link
-              to="/partners"
+            </a>
+
+            <a
+              href="mailto:info@aigo.org.uk?subject=Collaboration%20Inquiry"
               className="px-8 py-4 rounded-full text-lg font-semibold border-2 border-accent-blue text-accent-blue hover:bg-accent-blue hover:text-white transition-all duration-300 font-heading"
             >
-              Partner with Us
-            </Link>
+              Collaborate with Us
+            </a>
           </div>
         </div>
       </section>
@@ -321,12 +324,13 @@ const Home: React.FC = () => {
             >
               Get Involved
             </a>
-            <Link
-              to="/partners"
+
+            <a
+              href="mailto:info@aigo.org.uk?subject=Collaboration%20Inquiry"
               className="px-8 py-4 rounded-full text-lg font-semibold border-2 border-accent-blue text-accent-blue hover:bg-accent-blue hover:text-white transition-all duration-300 font-heading"
             >
-              Partner with Us
-            </Link>
+              Collaborate with Us
+            </a>
           </div>
         </div>
       </section>

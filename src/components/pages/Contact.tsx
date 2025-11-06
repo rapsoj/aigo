@@ -35,10 +35,10 @@ const Contact: React.FC = () => {
                   Apply for Membership
                 </a>
                 <a
-                  href="mailto:info@aigo.org.uk?subject=Partnership Inquiry"
+                  href="mailto:info@aigo.org.uk?subject=Collaboration Inquiry"
                   className="block w-full bg-gradient-to-r from-accent-mint to-accent-peach text-white px-6 py-4 rounded-xl font-semibold hover:from-accent-peach hover:to-accent-blue transition-all duration-300 transform hover:scale-[1.02] shadow-soft hover:shadow-medium text-center font-heading"
                 >
-                  Partnership Inquiry
+                  Collaboration Inquiry
                 </a>
                 <a
                   href="mailto:info@aigo.org.uk?subject=General Question"
