@@ -73,12 +73,14 @@ const Header: React.FC = () => {
             >
               {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
             </button>
-            <Link
-              to="/join"
+            <a
+              href="https://forms.gle/Dd2PPcFYm8Sw2YbdA"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-200 transform hover:scale-105 bg-gradient-to-r from-accent-blue to-accent-mint text-white hover:from-accent-mint hover:to-accent-peach shadow-soft hover:shadow-medium font-heading"
             >
               Apply Now
-            </Link>
+            </a>
           </div>
 
           {/* Mobile menu button */}
