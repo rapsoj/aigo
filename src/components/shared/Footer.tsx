@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
               <Link to="/legal" className="hover:text-text-primary transition-colors">Legal</Link>
             </div>
             <div className="flex items-center space-x-4 text-sm text-text-secondary font-body">
-              <span>© 2025 Young AI Leaders Linz</span>
+              <span>© 2025 AIGO</span>
               <span>•</span>
               <a 
                 href="https://aiforgood.itu.int/" 

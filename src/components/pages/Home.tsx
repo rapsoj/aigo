@@ -58,14 +58,12 @@ const Home: React.FC = () => {
       icon: <BookOpen size={32} />,
       title: 'AIGO Research Roundtable',
       description: 'Weekly forum where students and researchers present work, discuss recent papers, and form short-term collaborations focused on applied AI.',
-      status: 'Launching Soon',
       image: 'https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg'
     },
     {
       icon: <Users size={32} />,
-      title: 'Impact Forum',
-      description: 'Quarterly event linking socially beneficial organisations with AI researchers and practitioners to build applied collaborations with real-world impact.',
-      status: 'Ongoing – Concept Stage',
+      title: 'AIGO Impact Network',
+      description: 'Connects researchers working on socially impactful challenges with machine learning experts, enabling collaboration where technical AI expertise can unlock new solutions.',
       image: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg'
     },
   ];
@@ -312,7 +310,7 @@ const Home: React.FC = () => {
             Get Involved
           </h2>
           <p className="text-xl text-text-secondary mb-12 leading-relaxed font-body">
-            Whether you're a student, professional, or organization — be part of Austria's youth-led AI community.
+            Join a community of students and researchers applying AI to real-world challenges.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a

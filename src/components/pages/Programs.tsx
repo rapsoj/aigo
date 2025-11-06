@@ -24,13 +24,13 @@ const Programs: React.FC = () => {
     },
     {
       icon: <Users size={48} />,
-      title: 'Impact Forum',
+      title: 'AIGO Impact Network',
       subtitle: 'Connect, Collaborate, Create Change',
-      description: 'Quarterly event linking socially beneficial organisations with AI researchers and practitioners to build applied collaborations with real-world impact.',
-      features: ['NGO and public sector problem pitches', 'AI expert collaboration sessions', 'Follow-up working groups and hackathons', 'Applied project matchmaking'],
+      description: 'An initiative connecting researchers working on socially impactful problems with machine learning experts who can provide the technical expertise needed to apply AI methods effectively.',
+      features: ['Matchmaking between domain researchers and ML practitioners', 'Collaborative problem scoping and project design', 'Opportunities for cross-disciplinary partnerships', 'Support for applying AI to existing research challenges'],
       status: 'Ongoing – Concept Stage',
       statusColor: 'bg-accent-peach/20 text-accent-peach',
-      href: isFeatureEnabled('PROGRAM_DETAILS') ? '/programs/impact-forum' : null,
+      href: isFeatureEnabled('PROGRAM_DETAILS') ? '/programs/impact-network' : null,
       ctaText: 'Express Interest',
       color: 'from-accent-peach/10 to-accent-blue/10',
       iconColor: 'text-accent-peach',
@@ -96,7 +96,7 @@ const Programs: React.FC = () => {
             <Clock size={48} className="text-accent-blue mx-auto mb-4" />
             <h2 className="text-2xl font-bold text-text-primary mb-4 font-heading">Programs in Development</h2>
             <p className="text-lg text-text-secondary leading-relaxed font-body">
-              Each program is designed to create opportunities for students and researchers to apply artificial intelligence to real-world problems by generating solutions that benefit society and demonstrate the practical impact of AI for Good.
+              AIGO programs create opportunities for collaboration between technical and domain experts, helping researchers apply AI and machine learning to real-world challenges. Through knowledge exchange, discussion, and hands-on partnership, AIGO bridges the gap between impactful research and technical expertise to advance AI for social good.
             </p>
           </div>
         </div>
@@ -186,7 +186,7 @@ const Programs: React.FC = () => {
             Ready to Get Involved?
           </h2>
           <p className="text-xl text-text-secondary mb-8 leading-relaxed font-body">
-            Join our community and help us build programs that will shape the future of AI education in Austria.
+            Be part of Oxford’s growing network advancing AI for human and societal benefit.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
