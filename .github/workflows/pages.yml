@@ -10,10 +10,8 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    outputs:
-      page_url: ${{ steps.upload.outputs.page_url }}
 
     steps:
       - name: Checkout
@@ -30,21 +28,13 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+
       - name: Upload Pages artifact
-        id: upload
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ./dist
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      contents: write
-    steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-        with:
-          # deploy-pages will use the artifact uploaded by actions/upload-pages-artifact@v3
-          # no inputs required for the default behavior
