@@ -315,8 +315,8 @@ const Home: React.FC = () => {
               className="inline-block"
             >
               <img
-                src={trinitySchedule}
-                alt="Trinity schedule"
+                src={roundtableSchedule}
+                alt="Roundtablee Schedule"
                 className="mx-auto w-full max-w-2xl rounded-2xl shadow-medium hover:shadow-strong transition-shadow duration-300"
               />
             </a>
