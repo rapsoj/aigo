@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, GraduationCap, Zap, Users, Globe, BookOpen, Lightbulb, Rocket, Code, Trophy, CheckCircle, Clock, MapPin, Quote, Building, Target, TrendingUp, Heart, Briefcase } from 'lucide-react';
 
+import roundtableSchedule from '../assets/rountable-schedule.png';
+
 const Home: React.FC = () => {
   const [stats, setStats] = useState({ members: 0, partners: 0, projects: 0 });
 
@@ -305,6 +307,20 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <div className="text-center mt-8">
+            <a
+              href="https://export.calendar.online/ics/6613096/4fce4dc9eb909459da41/aiforgood.ics?past_months=3&future_months=36"
+              download="aiforgood.ics"
+              className="inline-block"
+            >
+              <img
+                src={trinitySchedule}
+                alt="Trinity schedule"
+                className="mx-auto w-full max-w-2xl rounded-2xl shadow-medium hover:shadow-strong transition-shadow duration-300"
+              />
+            </a>
+      </div>
 
       {/* Final CTA Section */}
       <section className="py-20 bg-gradient-to-br from-accent-blue/20 via-accent-mint/20 to-accent-peach/20">
