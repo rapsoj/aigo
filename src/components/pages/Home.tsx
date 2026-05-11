@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, GraduationCap, Zap, Users, Globe, BookOpen, Lightbulb, Rocket, Code, Trophy, CheckCircle, Clock, MapPin, Quote, Building, Target, TrendingUp, Heart, Briefcase } from 'lucide-react';
 
-import roundtableSchedule from '../assets/rountable-schedule.png';
+import roundtableSchedule from '../assets/roundtable-schedule.png';
 
 const Home: React.FC = () => {
   const [stats, setStats] = useState({ members: 0, partners: 0, projects: 0 });
